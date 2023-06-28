@@ -74,4 +74,20 @@ Para la 4, podemos hacer una union de la 1 con la 3.
 Para la 5, se hacen consultas basadas en la tabla creada para la 3, y se usa la de la 1. De esta forma podremos obtener estos resultados, basandonos en los nombres resultantes de la 4.
 
 
+Desarrollo:
+
+Para partir, empezaremos obteniendo una tupla de la forma jugador_id##1, de forma de contar todas las participaciones.
+
+Luego haremos lo mismo, pero solo cuando winner es true.
+
+Finalmente usaremos ambos para juntarlos en un solo resultado que tenga jugador##victorias##total
+
+
+
+
+
+
+
+
+
 
