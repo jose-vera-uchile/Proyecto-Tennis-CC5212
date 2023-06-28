@@ -60,3 +60,18 @@ Con esto podremos tener una vision un poco mas general de que jugadores son los 
 
 
 Es importante destacar que descartaremos muchas columnas. Y esto sera porque no las necesitaremos para el proceso. Para esto se uso un jupyter notebook, el cual incluire en este repositorio. Decidimos usar un notebook ya que es mas simple de usar, estamos mas familiarizados, y a pesar de que estamos trabajando con un dataset bastante grande, las operaciones de remover columnas son lo suficientemente simples para no necesitar algun otro metodo o mayor poder computacional.
+
+
+
+Para la consulta 1 necesitamos, id del jugador y columna de winner
+
+Para la 2 lo mismo, solo que los calculos son distinto, y se consideran solo las que tienen un _ en el nombre. (hay que ver como carajos ver eso). Podria ser haciendo un equivalente a like (%_%), de esta forma deberia obtener todos los ids de solo los dobles.
+
+Para la 3, Tendria que basarme en la lista anterior, pero hacer una division, creando 4 tuplas iguales pero varia la info en player id y opponent id. serian 4 al ser AA, AB, BA y BB (las cuatro combinaciones de pares de jugadores en dobles, sin contar su pareja de juego.
+
+Para la 4, podemos hacer una union de la 1 con la 3. 
+
+Para la 5, se hacen consultas basadas en la tabla creada para la 3, y se usa la de la 1. De esta forma podremos obtener estos resultados, basandonos en los nombres resultantes de la 4.
+
+
+
